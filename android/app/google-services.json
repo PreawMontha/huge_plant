@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15084950656",
+    "project_id": "huge-plant",
+    "storage_bucket": "huge-plant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15084950656:android:d021c9ba688538cd9b0265",
+        "android_client_info": {
+          "package_name": "com.example.huge_plant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15084950656-7jf60980mct9pl5pf3ufe8j6e08j8h5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3f01A2YcnoCAzEK6jIbBiiGG7kNm7g-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15084950656-7jf60980mct9pl5pf3ufe8j6e08j8h5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

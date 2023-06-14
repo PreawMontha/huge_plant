@@ -1,0 +1,76 @@
+name: huge_plant
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.5
+  line_icons: ^2.0.1
+  animate_do: ^2.1.0
+  google_fonts: ^3.0.1
+  smooth_page_indicator: ^1.0.0+2
+  carousel_slider: ^4.0.0
+  firebase_core: ^1.12.0
+  firebase_core_platform_interface: 4.5.1
+  cloud_firestore: ^3.1.9
+  firebase_auth: ^3.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  image_path: "assets/images/HugeT.png"
+  andriod: true
+  adaptive_icon_foreground: "assets/images/play_store_512.png"
+ 
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/4.gif
+    - assets/5.gif
+    - assets/6.gif
+    - images/
+    - images/type/
+    - images/intro/
+    - images/shrub/
+    - images/full/
+    - images/sawing/
+    - images/ground/
+    - images/herbaceous/
+    - images/air/
+    - images/bamboo/
+    - images/flower/
+    - assets/images/
+    - assets/images/images1/shrub/
+    - assets/images/images1/full/
+    - assets/images/images1/bamboo/
+    - assets/images/images1/flower/
+    - assets/images/images1/ground/
+    - assets/images/her/
+    - assets/images/images1/sawing/
+    - assets/images/images1/
+
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/font/Kanit-ExtraBold.ttf
+        - asset: assets/font/Kanit-ExtraBoldItalic.ttf
+        - asset: assets/font/Kanit-Light.ttf
