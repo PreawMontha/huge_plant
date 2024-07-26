@@ -2,10 +2,20 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:huge_plant/core/colors.dart';
 import 'package:huge_plant/title/title.dart';
+import 'dart:io';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: const FirebaseOptions(
+          apiKey: 'AIzaSyA3f01A2YcnoCAzEK6jIbBiiGG7kNm7g-o',
+          appId: '1:15084950656:android:d021c9ba688538cd9b0265',
+          messagingSenderId: '15084950656',
+          projectId: 'huge-plant',
+        ))
+      : await Firebase.initializeApp();
 
   runApp(const MyApp());
 }

@@ -201,7 +201,7 @@ class DetailScreen extends StatelessWidget {
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         fixedSize: const Size(120, 40),
-                        primary: plantdetail.favorite == 1
+                        backgroundColor: plantdetail.favorite == 1
                             ? Colors.blueGrey
                             : Colors.redAccent),
                     child: plantdetail.favorite == 1
