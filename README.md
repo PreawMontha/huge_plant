@@ -1,6 +1,7 @@
 # huge_plant
-
 A new Flutter project.
+
+![plant](https://github.com/PreawMontha/huge_plant/assets/117275084/ed8e397a-eba8-4f22-b048-9f4b3f91755d)
 
 ## Getting Started
 
